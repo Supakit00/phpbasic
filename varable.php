@@ -5,11 +5,15 @@ echo ("<br>");
 define("PROVINCE", "Bangkok");
 echo PROVINCE;
 echo("<br>");
-define("SALARY",15000);
+define("SALARY",18000);
 echo SALARY;
 echo("<br>");
+
+date_default_timezone_set("Europe/Berlin");
+date_default_timezone_set("Asia/Bangkok");
 $t = date("H");
 echo $t;
+
 echo("<br>");
 if($t <"20") {
     echo "Have a good day !";
