@@ -10,7 +10,7 @@ echo "The number is : $a <br>";
 
  #break
     echo("break <br>");
-    for($a=0;$a<10;$a++){
+    for($a=0;$a<10;$a--){
         if ($a ==10){
             break;
         }

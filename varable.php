@@ -5,7 +5,7 @@ echo ("<br>");
 define("PROVINCE", "Bangkok");
 echo PROVINCE;
 echo("<br>");
-define("SALARY",18000);
+define("SALARY",17000);
 echo SALARY;
 echo("<br>");
 
@@ -30,7 +30,7 @@ if($t <"10") {
 }
 
 
-$favcolor = "red";
+$favcolor = "green";
 
     switch ($favcolor ) {
         case "red";
@@ -60,21 +60,21 @@ $favcolor = "red";
 <body>
     <h1>
          <?php
-         $a = "hello";
+         $a = "Hello";
          echo ($a);
          ?>
     </h1>
-    <div style = "font-size:larger; color : blue;">
+    <div style = "font-size:larger; color : green;">
           <?php 
-                echo "<b> คณะบริหารธุรกิจ สาขาเทคโนโลยีสารสนเทศทางธุรกิจจ
+                echo "<b> คณะบริหารธุรกิจ สาขาเทคโนโลยีสารสนเทศทางธุรกิจ
                 ประกอบด้วย 3 วิชาเอก</b>";
             ?>    
     </div>
     <ul>
                 <?php
-                    echo "<li>การจัดการ</li>";
+                    echo "<li>การจัดการสารสนเทศ</li>";
                     echo"<li>พัฒนาซอฟแวร์</li>";
-                    echo"<li>มัลติมีเดีย</li>";
+                    echo"<li>นวัตกรรมมัลติมีเดีย</li>";
                  ?>   
     </ul>
 
