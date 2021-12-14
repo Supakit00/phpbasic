@@ -27,7 +27,7 @@ $number5 = $_POST["nember5"];
 </html>
 <?php
         if(isset($number1)) {
-            $sum = $number1+$number1+$number2+$number3+$number4+$number5;
+            $sum = $number1+$number2+$number3+$number4+$number5;
             echo $sum;
         }else{
             echo "ไม่มีข้อมูล";
